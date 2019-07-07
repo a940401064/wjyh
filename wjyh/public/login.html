@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function login(){
+            var $uname=uname.value;
+            var $upwd=upwd.value;
+            if(!$uname){
+                d1.innerHTML="用户名为空";
+                return;
+            }
+            if(!$upwd){
+                d2.innerHTML="密码为空";
+                return;
+            }
+            var xhr=new XMLHttpRequest();
+
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4&&xhr.status==200){
+                    var result=xhr.responseText;
+                    
+                    if(result=="1"){
+                        alert("登录成功");
+                    };
+                    if(result=="0"){
+                        alert("登录失败");
+                    };
+                };
+            };
+
+            xhr.open("get","/user/login/"+$uname+"&"+$upwd,true);
+            xhr.send();
+        }
+    </script>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" id="uname" placeholder="请输入用户名">
+        <div id="d1"></div>
+        <input type="password" id="upwd" placeholder="请输入密码">
+        <div id="d2"></div>
+        <button onclick="login()">登录</button>
+    </div>
+</body>
+</html>
