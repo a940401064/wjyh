@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>文具一号-登录</title>
     <script>
         function login(){
             var $uname=uname.value;
@@ -37,16 +37,55 @@
         }
     </script>
     <style>
-      
+        *{
+            padding: 0;margin: 0;
+        }
     </style>
+    <link rel="stylesheet" href="./css/1.css">
 </head>
 <body>
-    <div>
-        <input type="text" id="uname" placeholder="请输入用户名">
-        <div id="d1"></div>
-        <input type="password" id="upwd" placeholder="请输入密码">
-        <div id="d2"></div>
-        <button onclick="login()">登录</button>
+    <div id="header">
+        <div id="header-inner">
+            <div class="logo">
+                <a target="_self" href="#"><img src="./img/deng_logo.jpg" alt></a><span>欢迎登录</span>
+                </div>
+            </div>
+        </div>
+    <div class="new-login-body">
+        <div class="clearfix">
+            <div class="pic"><img src="./img/login.jpg" alt=""></div>
+            <div id="page2">
+                <div class="new-login-box">
+                    <div id="d1"></div>
+                    <div id="d2"></div>
+                    <div class=".alert-box-body-title.loginv">
+                        <ul>
+                            <li class="onlogintab">账号密码登录</li>
+                            <li>|</li>
+                            <li class="logintab">手机验证码登录</li>
+                            <div id="clear"></div>
+                        </ul>
+                    </div>
+                    <input type="text" id="uname" placeholder="支付账号/采购账号/邮箱/手机号">
+                    <input type="password" id="upwd" placeholder="请输入密码">
+                    <div class="line-row">
+                        <a href="#">忘记密码</a>
+                        <a href="#" class="r-login-a">还没有账号？<span>快速注册</span></a>
+                    </div>
+                    <button onclick="login()" class="tj-btns-login">登录</button>
+                    <div class="b-area">
+                    <p>第三方登录</p>
+                        <div class="links">
+                            <a href="#">QQ登录</a>
+                            <a href="#">微博登录</a>
+                            <a href="#">微信登录</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div id="gn_bottom"></div>    
+    
 </body>
 </html>
