@@ -81,6 +81,24 @@ ul{list-style: none;}
     float: none;
     
 }
+.gn_head_nav .gn_fr .cart-pic{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    line-height: 17px;
+    text-align: center;
+    color: #fff;
+    background: url(../images/icon_title_nav4.png) no-repeat 0 0;
+
+}
+.gn_head_nav .gn_fr .cart-pic_two{
+    top:36px;
+}
+.gn_head_nav .gn_fr .myfl{
+    width: 80px;
+}
 .gn_head_nav .gn_fr ul li  ul li a{
     background: #F5F5F5;
     color: #999;
@@ -198,7 +216,7 @@ input#search_ipt{
     padding: 0 9px;
 }
 .gn_hotkeywords span{
-    display: inline-block;
+    display: block;
     float: left;
 }
 .gn_hotkeywords li a{
