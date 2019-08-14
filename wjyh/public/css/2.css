@@ -408,6 +408,22 @@ input#search_ipt{
     background-position:  -107px 0px;
 }
 
+#nav li>div>.gn-btlfin{
+    padding: 5px 0;
+}
+#nav li>div>.gn-btlfin>div{
+    width: 725px;
+    border-bottom:1px dashed #cbcbcb;
+    overflow: hidden;
+}
+#nav li>div>.gn-btlfin>div h3{
+    color: #c40000;
+    font-weight: 600;
+}
+#nav li>div>.gn-btlfin>div a{
+    color: #888;
+}
+
 
 
 
@@ -419,15 +435,15 @@ input#search_ipt{
 #nav li:hover a{
     color: #fff;
 }
-#nav li div{
+#nav li>div{
     display: none;
     width: 800px;
     height: 450px;
     position: absolute;
-    background: pink;
+    background: #fff;
     left: 200px;
     top:40px;
-    
+    padding: 0 15px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
