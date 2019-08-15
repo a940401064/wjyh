@@ -333,17 +333,17 @@ input#search_ipt{
     font-family: "Microsoft Yahei";
 }
 
-#nav li h2 a{
+#nav>ul>li h2 a{
     color: #62615f;
     padding-right: 5px;
     font-size: 14px;
     font-family: "Microsoft Yahei";
 }
-#nav li{
+#nav>ul>li{
     height: 25px;
     padding: 10px 10px 10px 35px;
 }
-#nav li span{
+#nav>ul>li span{
     float: left;
     background: url(../images/icon_totle.png);
     width: 17px;
@@ -411,19 +411,41 @@ input#search_ipt{
 #nav li>div>.gn-btlfin{
     padding: 5px 0;
 }
-#nav li>div>.gn-btlfin>div{
+#nav li>div>.gn-btlfin .gn-btlfirst{
     width: 725px;
+    height: 25px;
     border-bottom:1px dashed #cbcbcb;
     overflow: hidden;
 }
 #nav li>div>.gn-btlfin>div h3{
     color: #c40000;
-    font-weight: 600;
+    font-weight: 700;
+    float: left;
+    font-size: 12px;
+    line-height: 25px;
+}
+#nav li>div>.gn-btlfin>div h4{
+    float: right;
+    line-height: 25px;
+}
+#nav li>div>.gn-btlfin>div h4 a{
+    color: #000;
 }
 #nav li>div>.gn-btlfin>div a{
     color: #888;
 }
-
+#nav li>div>.gn-btlfin .gn-btlsecond ul{
+    width: 725px;
+}
+#nav li>div>.gn-btlfin .gn-btlsecond li{
+    background: none;
+   float: left;
+   padding: 0 8px;
+   margin-left:1px; 
+}
+#nav li>div>.gn-btlfin .gn-btlsecond li a:hover{
+    color: #cc0000
+}
 
 
 
