@@ -24,7 +24,6 @@ ul{list-style: none;}
 
 
 
-
 /* 顶部导航栏 */
 
 
@@ -408,42 +407,44 @@ input#search_ipt{
     background-position:  -107px 0px;
 }
 
-#nav li>div>.gn-btlfin{
-    padding: 5px 0;
+#nav li>div .gn-btlfin{
+    padding: 0 15px;
+    width: 770px;
+    
 }
-#nav li>div>.gn-btlfin .gn-btlfirst{
+#nav li>div .gn-btlfin .gn-btlfirst{
     width: 725px;
     height: 25px;
     border-bottom:1px dashed #cbcbcb;
     overflow: hidden;
 }
-#nav li>div>.gn-btlfin>div h3{
+#nav li>div .gn-btlfin div h3{
     color: #c40000;
     font-weight: 700;
     float: left;
     font-size: 12px;
     line-height: 25px;
 }
-#nav li>div>.gn-btlfin>div h4{
+#nav li>div .gn-btlfin div h4{
     float: right;
     line-height: 25px;
 }
-#nav li>div>.gn-btlfin>div h4 a{
+#nav li>div .gn-btlfin div h4 a{
     color: #000;
 }
-#nav li>div>.gn-btlfin>div a{
+#nav li>div .gn-btlfin div a{
     color: #888;
 }
-#nav li>div>.gn-btlfin .gn-btlsecond ul{
+#nav li>div .gn-btlfin .gn-btlsecond ul{
     width: 725px;
 }
-#nav li>div>.gn-btlfin .gn-btlsecond li{
+#nav li div .gn-btlfin .gn-btlsecond li{
     background: none;
    float: left;
    padding: 0 8px;
    margin-left:1px; 
 }
-#nav li>div>.gn-btlfin .gn-btlsecond li a:hover{
+#nav li>div .gn-btlfin .gn-btlsecond li a:hover{
     color: #cc0000
 }
 
@@ -457,7 +458,7 @@ input#search_ipt{
 #nav li:hover a{
     color: #fff;
 }
-#nav li>div{
+#nav li>div>div{
     display: none;
     width: 800px;
     height: 450px;
@@ -470,7 +471,7 @@ input#search_ipt{
     overflow-x: hidden;
 }
 
-#nav li:hover div{
+#nav li:hover>div>div{
     display: block;
 }
 
@@ -569,13 +570,19 @@ input#search_ipt{
     background-color: #f53318;
 }
 .gift-pack-left div,.gift-pack-right .gift-pack-right-bottom{
-    border-top:1px solid #f53318; 
+    border-top:1px solid #f53318;
+    
 }
 .gift-pack-right .gift-pack-right-bottom{
     position: relative;
     width: 595px;
     height: 249px;
     border-bottom: 1px solid #ccc;
+    display: none;
+}
+.gift-pack-right .gift-pack-right-bottom.show{
+    
+    display: block;
 }
 .gift-pack-right ul li{
     float: left;
@@ -590,10 +597,7 @@ input#search_ipt{
     width: 125px;
     text-align: center;
 }
-.gift-pack-right ul li .gift-first{
-    background-color: rgb(215, 22, 53);
-    color: #fff;
-}
+
 .gift-pack-right ul li::after{
     content: "";
     display: block;
@@ -665,7 +669,10 @@ input#search_ipt{
     margin-left: 3px;
 }
 
-
+.gift-pack-right ul li .gift-first{
+    background-color: rgb(215, 22, 53);
+    color: #fff;
+}
 
 
 
