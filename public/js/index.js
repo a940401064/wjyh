@@ -15,5 +15,6 @@ $(function(){
         var i=parseInt($a.attr("data-gonggao"));
         $(`#gn-fr-dl-${i}`).addClass("show").siblings().removeClass("show")
     })
+    
 
 })

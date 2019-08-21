@@ -47,13 +47,21 @@ ul{list-style: none;}
     line-height: 30px;
 
 }
-.gn_link_in li:first-child{
+.gn_link_in li.show{
     background-color: #999;
     color: #fff;
 }
 .gn_link_in .patener{
     margin-top: 20px;
+    display: none;
 }
+.gn_link_in .patener.show{
+    display: block;
+}
+
+
+
+
 .gn_footer_feature{
     background: url(../images/feature.png) no-repeat top center;
     width: 100%;

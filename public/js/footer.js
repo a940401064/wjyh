@@ -7,4 +7,5 @@ $(function(){
             $(`<link rel="stylesheet" href="css/footer.css">`).appendTo("head");
         }
     })
+    
 })
