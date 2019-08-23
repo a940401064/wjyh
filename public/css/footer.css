@@ -118,12 +118,13 @@ ul{list-style: none;}
     padding-top: 20px;
     background-color: #f5f5f5;
 }
-#gn_bottom .gn_bpart2 .all_foot1{
+#gn_bottom .gn_bpart2 .all_foot1,#gn_bottom .gn_bpart2 .all_foot1 a{
     text-align: center;
     line-height: 25px;
     color: #999;
 }
-#gn_bottom .gn_bpart2 .all_foot1 a{
+
+#gn_bottom .gn_bpart2 .all_foot1 a.gn_bottom_wyjh{
     color: #000;
 }
 #gn_bottom .gn_bpart2 .all_foot1 img{
