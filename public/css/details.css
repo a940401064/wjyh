@@ -214,3 +214,39 @@ strong{
 #detail .tb-detail-bd .tb-property .tb-wrap .tb-key .to-skin .tb-sku{
     padding: 5px 4px 12px 0;
 }
+#detail .tb-sku .tb-metatit {
+    margin-left: 12px;
+   
+}
+#detail .tb-metatit {
+    text-align: left;
+    width: 50px;
+}
+#detail .tb-detail-bd .tb-property .tb-wrap .tb-key .to-skin .tb-sku .tb-prop{
+    width: 550px;
+    height: 60px;
+}
+#detail .tb-detail-bd .tb-property .tb-wrap .tb-key .to-skin .tb-sku .tb-prop dd ul li{
+    float: left;
+    margin-right:12px;
+    margin-bottom: 12px; 
+}
+#detail .tb-detail-bd .tb-property .tb-wrap .tb-key .to-skin .tb-sku .tb-prop dt{
+    float: left;
+}
+#detail .tb-detail-bd .tb-property .tb-wrap .tb-key .to-skin .tb-sku .tb-prop dd{
+    float: left;
+}
+#detail .tb-detail-bd .tb-property .tb-wrap .tb-key .to-skin .tb-sku .tb-prop dd ul li a{
+    display: block;
+
+}
+#detail .tb-prop li a {
+    display: block;
+    height: 38px;
+    padding: 3px 12px 3px 5px !important;
+    line-height: 38px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
