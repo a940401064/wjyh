@@ -450,14 +450,7 @@ strong{
     height: 54px;
     width: 54px;
 }
-.tb-s40, .tb-s40 a {
-    height: 54px;
-    width: 54px;
-}
-.tb-s40, .tb-s40 a {
-    height: 54px;
-    width: 54px;
-}
+
 .tb-s40 a img {
     width: 54px;
     height: 54px;
@@ -470,7 +463,6 @@ strong{
     float: left;
     padding: 0px 0 11px 13px;
     overflow: hidden;
-    _zoom: 1;
     clear: both;
     color: #999;
 }
@@ -609,3 +601,15 @@ strong{
     background-color: yellowgreen;
     margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
